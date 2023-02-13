@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>3.Selenium_INT_Preperation</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>sr/test/resources/1.TestNg.xml.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/TestNg.xml.png</location>
+		</link>
+		<link>
+			<name>sr/test/resources/testRunners/10.parmameterization_CrossBrowser_Logic.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/parmameterization_CrossBrowser_Logic.png</location>
+		</link>
+		<link>
+			<name>sr/test/resources/testRunners/11.Thread Count parallel tests.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/Thread Count parallel tests.png</location>
+		</link>
+		<link>
+			<name>sr/test/resources/testRunners/12.At a time 3 Browsers Start Running.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/At a time 3 Browsers Start Running.png</location>
+		</link>
+		<link>
+			<name>sr/test/resources/testRunners/13.parallel Exe with Same Browser.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/parallel Exe with Same Browser.png</location>
+		</link>
+		<link>
+			<name>sr/test/resources/testRunners/3 Chrome Browsers Started Parallely.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/3 Chrome Browsers Started Parallely.png</location>
+		</link>
+		<link>
+			<name>sr/test/resources/testRunners/3.testOutput folder.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/testOutput folder.png</location>
+		</link>
+		<link>
+			<name>sr/test/resources/testRunners/4.index.xml.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/index.xml.png</location>
+		</link>
+		<link>
+			<name>sr/test/resources/testRunners/5.Emailabler eport.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/Emailabler eport.png</location>
+		</link>
+		<link>
+			<name>sr/test/resources/testRunners/6.Paster the properties url in browser U will het Report.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/Paster the properties url in browser U will het Report.png</location>
+		</link>
+		<link>
+			<name>sr/test/resources/testRunners/7.Parameterization_1.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/Parameterization_1.png</location>
+		</link>
+		<link>
+			<name>sr/test/resources/testRunners/8.Parameterization_2.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/Parameterization_2.png</location>
+		</link>
+		<link>
+			<name>sr/test/resources/testRunners/9.parameterization_With_different_Browsers.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/parameterization_With_different_Browsers.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Actions_15/1.RightClick_getting _Browser_Optioins.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/RightClick_getting _Browser_Optioins.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Actions_15/10.Element interactble_EXCEPTION .png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Element interactble_EXCEPTION .png</location>
+		</link>
+		<link>
+			<name>src/main/java/Actions_15/2.Context_overloaded_Methods.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Context_overloaded_Methods.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Actions_15/3.build.perform do remember to write.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/build.perform do remember to write.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Actions_15/4.Buildperform Replication.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Buildperform Replication.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Actions_15/5.collect All right click Options.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/collect All right click Options.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Actions_15/6.dragandDrop.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/dragandDrop.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Actions_15/7.DragAndDrop_ChainOf Actios.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/DragAndDrop_ChainOf Actios.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Actions_15/8.moveToEle.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/moveToEle.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Actions_15/9.action.sendkeys.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/action.sendkeys.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Alert_Popups_9/1.alert method gives alert pop_up.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/alert method gives alert pop_up.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Alert_Popups_9/2.reddifAlert.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/reddifAlert.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Alert_Popups_9/3.Switch from Driver to alert.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Switch from Driver to alert.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Alert_Popups_9/4.Accept_Dismiss_gettext.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Accept_Dismiss_gettext.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Alert_Popups_9/5.switchTo usage 3 cases.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/switchTo usage 3 cases.png</location>
+		</link>
+		<link>
+			<name>src/main/java/DropDowns_10/1.childtag_options.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/childtag_options.png</location>
+		</link>
+		<link>
+			<name>src/main/java/DropDowns_10/2.Select Options.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Select Options.png</location>
+		</link>
+		<link>
+			<name>src/main/java/DropDowns_10/3.selectclassNoDefaultConstructor_expect_paramter.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/selectclassNoDefaultConstructor_expect_paramter.png</location>
+		</link>
+		<link>
+			<name>src/main/java/DropDowns_10/4.SelectByIndex.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/SelectByIndex.png</location>
+		</link>
+		<link>
+			<name>src/main/java/DropDowns_10/5.SelectbyvVisibleText.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/SelectbyvVisibleText.png</location>
+		</link>
+		<link>
+			<name>src/main/java/DropDowns_10/6.SelectByValue.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/SelectByValue.png</location>
+		</link>
+		<link>
+			<name>src/main/java/DropDowns_10/7.for vs foreach loop.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/for vs foreach loop.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Element_Util_6/ElementUtil_Methods_Cannot_Static.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/ElementUtil_Methods_Cannot_Static.png</location>
+		</link>
+		<link>
+			<name>src/main/java/FindElements_Concept_7/1.images_list.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/images_list.png</location>
+		</link>
+		<link>
+			<name>src/main/java/FindElements_Concept_7/2.findelement method.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/findelement method.png</location>
+		</link>
+		<link>
+			<name>src/main/java/FindElements_Concept_7/3.findElements method.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/findElements method.png</location>
+		</link>
+		<link>
+			<name>src/main/java/FindElements_Concept_7/4.Trw Elemt changed will shown false with GenMethod.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Trw Elemt changed will shown false with GenMethod.png</location>
+		</link>
+		<link>
+			<name>src/main/java/FindElements_Concept_7/5.preferElm Visible On Ui.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/preferElm Visible On Ui.png</location>
+		</link>
+		<link>
+			<name>src/main/java/FindElements_Concept_7/Selenium 4 Bug.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Selenium 4 Bug.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Frames_12/0.Frame Hierarchy.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Frame Hierarchy.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Frames_12/1.Frames_NoSuchEle_Exception.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Frames_NoSuchEle_Exception.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Frames_12/2.Everyframe having_ItsOwn_HeaderandBody.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Everyframe having_ItsOwn_HeaderandBody.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Frames_12/3.frame_OverLoaded_Methods.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/frame_OverLoaded_Methods.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Frames_12/4.switchTo usage 3 cases.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/switchTo usage 3 cases.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Frames_12/5.Parent frame.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Parent frame.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Frames_12/6.frame1 to frame2.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/frame1 to frame2.png</location>
+		</link>
+		<link>
+			<name>src/main/java/GoogleSearch_11/1.These are Suggestions Not Dropdowns.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/These are Suggestions Not Dropdowns.png</location>
+		</link>
+		<link>
+			<name>src/main/java/GoogleSearch_11/2.ul-li Combination.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/ul-li Combination.png</location>
+		</link>
+		<link>
+			<name>src/main/java/GoogleSearch_11/3.under this ul All list is Available.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/under this ul All list is Available.png</location>
+		</link>
+		<link>
+			<name>src/main/java/GoogleSearch_11/4.Keyword giving 10 suggestions.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Keyword giving 10 suggestions.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Navigate_Headless_InCognito_4/1.back_Forward_Methods.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/back_Forward_Methods.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Navigate_Headless_InCognito_4/2.to internally calls get method.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/to internally calls get method.png</location>
+		</link>
+		<link>
+			<name>src/main/java/QuitVsClose_And_Bornigracia_3/1.driver.close.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/driver.close.png</location>
+		</link>
+		<link>
+			<name>src/main/java/QuitVsClose_And_Bornigracia_3/2.close -- Invalid Session Id.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/close -- Invalid Session Id.png</location>
+		</link>
+		<link>
+			<name>src/main/java/QuitVsClose_And_Bornigracia_3/3.Same Session_Id Maintained.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Same Session_Id Maintained.png</location>
+		</link>
+		<link>
+			<name>src/main/java/QuitVsClose_And_Bornigracia_3/4.Reinitialize again New Session got started.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Reinitialize again New Session got started.png</location>
+		</link>
+		<link>
+			<name>src/main/java/QuitVsClose_And_Bornigracia_3/5.driver.quit.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/driver.quit.png</location>
+		</link>
+		<link>
+			<name>src/main/java/QuitVsClose_And_Bornigracia_3/6.Session_id null.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Session_id null.png</location>
+		</link>
+		<link>
+			<name>src/main/java/QuitVsClose_And_Bornigracia_3/7.Wdm will take browser aUTOMATICALLY.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Wdm will take browser aUTOMATICALLY.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WebDriver_castings_2/0.Selenium Architecture.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Selenium Architecture.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WebDriver_castings_2/1.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/1.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WebDriver_castings_2/2.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/2.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WebDriver_castings_2/3.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/3.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WebDriver_castings_2/4.Remote Server Running.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Remote Server Running.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/0.waitig mechanism.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/waitig mechanism.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/1.Synchronization in Selenium.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Synchronization in Selenium.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/10.Deprecated webDriver_Constructors.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Deprecated webDriver_Constructors.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/11.Do we need to explicit wait for each webElement.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Do we need to explicit wait for each webElement.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/12.Explicit wait getting 2 Exceptions.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/poolong interval.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/13.implicit_wait having 1Exception.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/implicit_wait Exception.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/14.ExpectedCondition.presence or visibility Of element.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/ExpectedCondition.presence or visibility Of element.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/15.I don&apos;t want to define wait Globally.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/I don&apos;t want to define wait Globally.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/16.I created customised wait sl that I can use specfic to eleent.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/I created customised wait sl that I can use specfic to eleent.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/17.wait for URL.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/wait for URL.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/18.wait for URL.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/wait for URL.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/19.WaitForTitle.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/WaitForTitle.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/2.implicit wait Drawbacks.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/implicit wait Drawbacks.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/20.Wait_Alert.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Wait_Alert.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/21.WaitforFrame.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/WaitforFrame.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/22.webDrover wait we can write same like FluentWait both are same hence proved.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/webDrover wait we can write same like FluentWait both are same hence proved.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/3.Timeunitchanges TorDurationIn_seelnium4.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Timeunitchanges TorDurationIn_seelnium4.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/4.wait(I) haviong Only 1 method.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/wait(I) haviong Only 1 method.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/5.Explicit_Wait_Concept in 1 Diagram.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Explicit_Wait_Concept in 1 Diagram.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/6.webDriverWait(C)_FluentWait(C)_wait(I).png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/webDriverWait(C)_FluentWait(C)_wait(I).png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/7.Explicitwait_Applicable to Specfic eleemnt.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Explicitwait_Applicable to Specfic eleemnt.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/8.ExpectedCondition . have couple Of methods.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/ExpectedCondition . have couple Of methods.png</location>
+		</link>
+		<link>
+			<name>src/main/java/WeitingGame_Synchronization_16/9.Deprecated So Can use  DurationTimeOut.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Deprecated So Can use  DurationTimeOut.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webDriver_Launch_1/0.Selenium Archecture.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Selenium Archecture.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webDriver_Launch_1/1.Selenium 3 Componants.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/1.Selenium 3 Componants.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webDriver_Launch_1/2.m2 folder maintained dependencies.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/2.m2 folder maintained dependencies.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webDriver_Launch_1/3.binary file not meant for Selenium.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/3.binary file not meant for Selenium.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webDriver_Launch_1/4.ChromeDreiver.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/4.ChromeDreiver.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webDriver_Launch_1/5.Chrome 109 Vaersion.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/5.Chrome 109 Vaersion.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webDriver_Launch_1/6.webDriver Architecture Highlevel.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/6.webDriver Architecture Highlevel.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webDriver_Launch_1/7.no session Created Exception.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/7.no session Created Exception.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webDriver_Launch_1/8.Validation popint.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/8.Validation popint.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webDriver_Launch_1/9.webDriver Hierarchy.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/webDriver Hierarchy.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webElements_5/1.Relative _Xpath.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Relative _Xpath.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webElements_5/2.Abs Xpath copy On webElement.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Abs Xpath copy On webElement.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webElements_5/3.Copy Selector.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Copy Selector.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webElements_5/4.linktext.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/linktext.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webElements_5/5.tagname.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/tagname.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webElements_5/6.webElement Hierarchy.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/webElement Hierarchy.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNG_Basics/1.testNg Most StaBLE depencency.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNG/1.testNg Most StaBLE depencency.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNG_Basics/10.How we write testCases.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNG/10.How we write testCases.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNG_Basics/11.testNg frameWork Replicatin.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNG/11.testNg frameWork Replicatin.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNG_Basics/12.Selenium with TestNg code started writing.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNG/12.Selenium with TestNg code started writing.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNG_Basics/13.testNG Standard u should follow.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNG/13.testNG Standard u should follow.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNG_Basics/14.BeforeTestExecutedOnce.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNG/14.BeforeTestExecutedOnce.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNG_Basics/15.Assert in testNg class Having couple Of Methods.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNG/15.Assert in testNg class Having couple Of Methods.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNG_Basics/16.BeforeMethod Vs Befote Test Which is better.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNG/16.BeforeMethod Vs Befote Test Which is better.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNG_Basics/2.testNg Plugin.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNG/2.testNg Plugin.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNG_Basics/3.testNgJunit_scope.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNG/3.testNgJunit_scope.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNG_Basics/4.there is no mainMethod How we will run.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNG/4.there is no mainMethod How we will run.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNG_Basics/5.testNGRun will not Come withOut  @test.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNG/5.testNGRun will not Come withOut  @test.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNG_Basics/6.Better to Write Test at end.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNG/6.Better to Write Test at end.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNG_Basics/7.@test Mandatory.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNG/7.@test Mandatory.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNG_Basics/8.Annotation Sequence.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNG/8.Annotation Sequence.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNG_Basics/9.JAVA UnitTesting Framework.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNG/9.JAVA UnitTesting Framework.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNg_More_Features/1.case 1_AlphabeticalOrder.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/case 1.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNg_More_Features/2.Case_2_WorkingBasedOnPriority.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/Case_2_WorkingBasedOnPriority.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNg_More_Features/3.case_3_0_executed first.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/3.case_3_0_executed first.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNg_More_Features/4.case_4_Yes_NegativePriorityAlsoWeWillDo.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/4.case_4_Yes_NegativePriorityAlsoWeWillDo.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNg_More_Features/5.With&amp;WithOut_Priority.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/5.With&amp;WithOut_Priority.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNg_More_Features/6.With&amp;Without_PriorityCase.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/With&amp;Without_PriorityCase.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNg_More_Features/7.when we Design Test cases we never Pass the Parameters.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/when we Design Test cases we never Pass the Parameters.png</location>
+		</link>
+		<link>
+			<name>src/test/java/testNg_More_Features/8.Skipped cases in Yello Colour.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/testNg MoreFeatures/Skipped cases in Yello Colour.png</location>
+		</link>
+	</linkedResources>
+</projectDescription>
