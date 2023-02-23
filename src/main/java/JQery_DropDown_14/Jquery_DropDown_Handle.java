@@ -27,7 +27,7 @@ public class Jquery_DropDown_Handle {
 		// selectByChoice(choices, "choice 6 2 3");
 
 		// (2). DropDown Multi Value Selection
-		// selectByChoice(choices, "choice 2 1", "choice 6 2 3");
+		selectByChoice(choices, "choice 2 1", "choice 6 2 3");
 
 		// (3).DropDown ALL Value Selection
 		selectByChoice(choices, "all");
@@ -51,6 +51,7 @@ public class Jquery_DropDown_Handle {
 					}
 
 				}
+
 			}
 
 		}

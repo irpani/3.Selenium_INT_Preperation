@@ -83,9 +83,9 @@ public class JavaScript_Executor_Concept_1 {
 		// Exp wait --- -WE -> click()
 
 		// (8).**Scroll 4 Methods N't avaialble in selenium ...
+		// jsUtil.scrollPageUp();
 		// jsUtil.scrollPageDown();
 		// jsUtil.scrollPageDown(height);
-		// jsUtil.scrollPageUp();
 		// jsUtil.scrollIntoView(about_us);
 
 		jsUtil.scrollPageDown(); // Complete Scroll down

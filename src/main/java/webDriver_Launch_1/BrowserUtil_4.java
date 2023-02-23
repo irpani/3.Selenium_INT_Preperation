@@ -11,6 +11,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 //---- Reuse again & again  
 //This is y because I don't want to write code again  & again .....
 
+//driver Launch
+//driver.get("")
+//driver.currenturl()
+//driver.pagesource()  ---- not used in Automation
+//driver.getTitle() 
+//driver.close()
+//driver.quit()
 public class BrowserUtil_4 {
 
 	// This method responsible for only launch the Browser =>It will expect the

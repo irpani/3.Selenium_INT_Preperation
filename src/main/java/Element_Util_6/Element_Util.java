@@ -39,6 +39,7 @@ public class Element_Util {
 	}
 
 	// (2).Using String Locator's
+
 	// (3).
 	public WebElement getElement(By Locator, int timeOut) {
 		// return driver.findElement(Locator);

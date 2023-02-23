@@ -15,9 +15,9 @@ public class DropDownHandleWithSelectTag_1 {
 	 * Dropdowns:- -------------- (1).Simple DropDowns with <select> tag
 	 * 
 	 * Q1:what are the ways of handling Dropdowns? Q2:What are different dropdowns
-	 * available ? Q3:How to handle Dropdowns
+	 * available? Q3:How to handle Dropdowns
 	 * 
-	 * (2).Jquery DropDowns:-No<select> tag ---------------- we will see in upcoming
+	 * (2).Jquery DropDowns:- No<select> tag ----------- we will see in upcoming
 	 * chapters also some Complex Dropdowns
 	 */
 
@@ -26,7 +26,7 @@ public class DropDownHandleWithSelectTag_1 {
 		// Like linktext ---> html tag -----> <a> Anchor tag
 		// DropDown ---> html tag -----> <Select> tag
 		// select class{ } -->Already available in selenium we just use the values
-		// to handle thr dropdowns
+		// to handle the dropdowns
 		// Select class Applicable for only those dropdowns having html tag => select
 
 		// 3 imp Methods
@@ -56,6 +56,7 @@ public class DropDownHandleWithSelectTag_1 {
 		// more values index got disturbed
 		// select.selectByVisibleText("Albania");
 		// select.selectByValue("Cambodia");
+
 		// dropDownSelectByIndex(country, 4);
 		// dropDownSelectByVisibleText(country, "India");
 		dropDownSelectByVisibleText(country, "India");

@@ -30,23 +30,26 @@ public class Images_Util {
 		System.out.println(getElmenets_Count(img_list));
 
 		List<String> attrList = getAttributesList(img_list, "src"); // This gives a List Of Strings
-		printElementValues(attrList); // Created a Generic method for this also ...
-		printElementValues(getAttributesList(img_list, "alt"));
-		printElementValues(getAttributesList(link_list, "href"));
+		// printElementValues(attrList); // Created a Generic method for this also ...
+		// printElementValues(getAttributesList(img_list, "alt"));
+		// printElementValues(getAttributesList(link_list, "href"));
 	}
 
 	public static List<String> getAttributesList(By Locator, String attributeName) {
 
 		List<WebElement> eleList = driver.findElements(Locator);
+		// I will take one Arraylist
 		List<String> attrList = new ArrayList<String>();
 		for (WebElement e : eleList) { // Then do what each & every elemet
-			// This is called TestDriven Approch
+			// ****This is called TestDriven Approch
 			String attrvalue = e.getAttribute(attributeName);// here 1 more parameter required which attribute u lookfor
 			attrList.add(attrvalue);
 		}
 		return attrList;
 	}
 
+	// from Above method I get list of specific Attributes in the form of Strings
+	// I will print all the values
 	public static void printElementValues(List<String> eleList) {
 		for (String e : eleList) {
 			System.out.println(e);

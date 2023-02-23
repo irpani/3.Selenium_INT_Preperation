@@ -1,53 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="59" started-at="2023-02-05T13:43:50Z" finished-at="2023-02-05T13:43:50Z">
+  <suite name="Regression Test" duration-ms="63760" started-at="2023-02-22T12:08:47Z" finished-at="2023-02-22T12:09:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="59" started-at="2023-02-05T13:43:50Z" finished-at="2023-02-05T13:43:50Z">
-      <class name="testNg_More_Features.Invocation_Count_Test_4">
-        <test-method status="PASS" signature="getUserInfoTest()[pri:0, instance:testNg_More_Features.Invocation_Count_Test_4@59494225]" name="getUserInfoTest" duration-ms="11" started-at="2023-02-05T13:43:50Z" finished-at="2023-02-05T13:43:50Z">
+    <test name="Opencart Test" duration-ms="36743" started-at="2023-02-22T12:08:47Z" finished-at="2023-02-22T12:09:24Z">
+      <class name="testNG_XML_File.OpenCartTest_3">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testNG_XML_File.OpenCartTest_3@335eadca]" name="setUp" is-config="true" duration-ms="30018" started-at="2023-02-22T12:08:47Z" finished-at="2023-02-22T12:09:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.opencart.com/index.php?route=account/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserInfoTest -->
-        <test-method status="PASS" signature="getUserInfoTest()[pri:0, instance:testNg_More_Features.Invocation_Count_Test_4@59494225]" name="getUserInfoTest" duration-ms="1" started-at="2023-02-05T13:43:50Z" finished-at="2023-02-05T13:43:50Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerTest()[pri:1, instance:testNG_XML_File.OpenCartTest_3@335eadca]" name="registerTest" duration-ms="647" started-at="2023-02-22T12:09:18Z" finished-at="2023-02-22T12:09:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserInfoTest -->
-        <test-method status="PASS" signature="getUserInfoTest()[pri:0, instance:testNg_More_Features.Invocation_Count_Test_4@59494225]" name="getUserInfoTest" duration-ms="1" started-at="2023-02-05T13:43:50Z" finished-at="2023-02-05T13:43:50Z">
+        </test-method> <!-- registerTest -->
+        <test-method status="PASS" signature="urlTest()[pri:2, instance:testNG_XML_File.OpenCartTest_3@335eadca]" name="urlTest" duration-ms="7" started-at="2023-02-22T12:09:19Z" finished-at="2023-02-22T12:09:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserInfoTest -->
-        <test-method status="PASS" signature="getUserInfoTest()[pri:0, instance:testNg_More_Features.Invocation_Count_Test_4@59494225]" name="getUserInfoTest" duration-ms="1" started-at="2023-02-05T13:43:50Z" finished-at="2023-02-05T13:43:50Z">
+        </test-method> <!-- urlTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNG_XML_File.OpenCartTest_3@335eadca]" name="tearDown" is-config="true" duration-ms="5485" started-at="2023-02-22T12:09:19Z" finished-at="2023-02-22T12:09:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserInfoTest -->
-        <test-method status="PASS" signature="getUserInfoTest()[pri:0, instance:testNg_More_Features.Invocation_Count_Test_4@59494225]" name="getUserInfoTest" duration-ms="0" started-at="2023-02-05T13:43:50Z" finished-at="2023-02-05T13:43:50Z">
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNG_XML_File.OpenCartTest_3 -->
+    </test> <!-- Opencart Test -->
+    <test name="GoogleTest" duration-ms="40692" started-at="2023-02-22T12:08:47Z" finished-at="2023-02-22T12:09:28Z">
+      <class name="testNG_XML_File.GoogleTest_1">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testNG_XML_File.GoogleTest_1@55d56113]" name="setUp" is-config="true" duration-ms="39278" started-at="2023-02-22T12:08:47Z" finished-at="2023-02-22T12:09:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserInfoTest -->
-        <test-method status="PASS" signature="getUserInfoTest()[pri:0, instance:testNg_More_Features.Invocation_Count_Test_4@59494225]" name="getUserInfoTest" duration-ms="1" started-at="2023-02-05T13:43:50Z" finished-at="2023-02-05T13:43:50Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchTest()[pri:1, instance:testNG_XML_File.GoogleTest_1@55d56113]" name="searchTest" duration-ms="48" started-at="2023-02-22T12:09:27Z" finished-at="2023-02-22T12:09:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserInfoTest -->
-        <test-method status="PASS" signature="getUserInfoTest()[pri:0, instance:testNg_More_Features.Invocation_Count_Test_4@59494225]" name="getUserInfoTest" duration-ms="1" started-at="2023-02-05T13:43:50Z" finished-at="2023-02-05T13:43:50Z">
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="googleSearchTest()[pri:2, instance:testNG_XML_File.GoogleTest_1@55d56113]" name="googleSearchTest" duration-ms="36" started-at="2023-02-22T12:09:27Z" finished-at="2023-02-22T12:09:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserInfoTest -->
-        <test-method status="PASS" signature="getUserInfoTest()[pri:0, instance:testNg_More_Features.Invocation_Count_Test_4@59494225]" name="getUserInfoTest" duration-ms="1" started-at="2023-02-05T13:43:50Z" finished-at="2023-02-05T13:43:50Z">
+        </test-method> <!-- googleSearchTest -->
+        <test-method status="PASS" signature="urlTest()[pri:3, instance:testNG_XML_File.GoogleTest_1@55d56113]" name="urlTest" duration-ms="6" started-at="2023-02-22T12:09:27Z" finished-at="2023-02-22T12:09:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserInfoTest -->
-        <test-method status="PASS" signature="getUserInfoTest()[pri:0, instance:testNg_More_Features.Invocation_Count_Test_4@59494225]" name="getUserInfoTest" duration-ms="2" started-at="2023-02-05T13:43:50Z" finished-at="2023-02-05T13:43:50Z">
+        </test-method> <!-- urlTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNG_XML_File.GoogleTest_1@55d56113]" name="tearDown" is-config="true" duration-ms="1316" started-at="2023-02-22T12:09:27Z" finished-at="2023-02-22T12:09:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserInfoTest -->
-        <test-method status="PASS" signature="getUserInfoTest()[pri:0, instance:testNg_More_Features.Invocation_Count_Test_4@59494225]" name="getUserInfoTest" duration-ms="2" started-at="2023-02-05T13:43:50Z" finished-at="2023-02-05T13:43:50Z">
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNG_XML_File.GoogleTest_1 -->
+    </test> <!-- GoogleTest -->
+    <test name="Orange HRM Test" duration-ms="63760" started-at="2023-02-22T12:08:47Z" finished-at="2023-02-22T12:09:51Z">
+      <class name="testNG_XML_File.OrangeHRMTest_2">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testNG_XML_File.OrangeHRMTest_2@6536e911]" name="setUp" is-config="true" duration-ms="62208" started-at="2023-02-22T12:08:47Z" finished-at="2023-02-22T12:09:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.orangehrm.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserInfoTest -->
-      </class> <!-- testNg_More_Features.Invocation_Count_Test_4 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactSalesTest()[pri:1, instance:testNG_XML_File.OrangeHRMTest_2@6536e911]" name="contactSalesTest" duration-ms="88" started-at="2023-02-22T12:09:49Z" finished-at="2023-02-22T12:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactSalesTest -->
+        <test-method status="PASS" signature="urlTest()[pri:2, instance:testNG_XML_File.OrangeHRMTest_2@6536e911]" name="urlTest" duration-ms="13" started-at="2023-02-22T12:09:50Z" finished-at="2023-02-22T12:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNG_XML_File.OrangeHRMTest_2@6536e911]" name="tearDown" is-config="true" duration-ms="1446" started-at="2023-02-22T12:09:50Z" finished-at="2023-02-22T12:09:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNG_XML_File.OrangeHRMTest_2 -->
+    </test> <!-- Orange HRM Test -->
+  </suite> <!-- Regression Test -->
 </testng-results>

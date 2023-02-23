@@ -28,11 +28,13 @@ public class Locator_Concept_ID_1 {
 		// Q:How to create webElements ?
 		// A: with help of driver.findElement(by)=> method asks send parameter as by
 		// Locator --- In this class we will 7 types of By locator handling
+
 		// create webElement +actions(Click,sendkeys,getetxt(),isDisplayed,isEnabled()
 		// .Click()
 		// .sendkeys()
 		// .getText()
-		// .IsSelected()
+
+		// IsSelected()
 		// IsEnabled()
 		// IsDisplayed()
 
@@ -73,7 +75,7 @@ public class Locator_Concept_ID_1 {
 
 		// Among 1,2,3 which one u prefer ? (A):3 is better
 
-		// Can we imprive 3rd Approch writing again & again driver.findElement()
+		// Can we improve 3rd Approch writing again & again driver.findElement()
 		// Can we write one generic method to create the webElement
 
 		// (4) and (5) are almost same ....
@@ -103,6 +105,8 @@ public class Locator_Concept_ID_1 {
 															// class
 		eleUtil.getElement(username1);
 		eleUtil.doSendkeys(username1, "naveenautomation20@gmail.com");
+		// eleUtil.doClick(Locator);
+		// eleUtil.doClick(Locator);
 		// ____7th Approch:______
 		// 7th Approch:What could be the 7th Aproch?
 		// String Locator's: Not preferable ...
@@ -134,9 +138,17 @@ public class Locator_Concept_ID_1 {
 		return driver.findElement(Locator);
 	}
 
-	public static void doSendkeys(By Locator, String value) {
-		getElement(Locator).sendKeys(value);
+	public static void doClick(By Locator) {
 
+		getElement(Locator).click();
 	}
 
+	public static void doSendkeys(By Locator, String value) {
+		getElement(Locator).sendKeys(value);
+	}
+
+	public static void goGetText(By Locator) {
+
+		getElement(Locator).getText();
+	}
 }

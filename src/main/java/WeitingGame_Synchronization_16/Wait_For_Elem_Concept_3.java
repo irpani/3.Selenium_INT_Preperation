@@ -42,8 +42,10 @@ public class Wait_For_Elem_Concept_3 {
 		// WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		// presenceOfElementLocated() -expect a By locator not a webElement
 		// until() -- return a webElement
+
 		// WebElement userName =
 		// wait.until(ExpectedConditions.presenceOfElementLocated(username));
+
 		// userName.sendKeys("irfan.shaik77@gmail.com");
 		// ____No explicit wait Applied for the 2 remaining webElements_____
 		// driver.findElement(password).sendKeys("password"); // No explicit wait

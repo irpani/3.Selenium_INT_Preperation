@@ -22,6 +22,7 @@ public class VerifyElement_4 {
 		boolean flag = driver.findElement(By.linkText("Contact Sales")).isDisplayed();
 
 		System.out.println(flag);
+
 		// we can also Validate the element like this
 		if (driver.findElements(ContactSaleLink).size() >= 1) {
 			System.out.println("Contact sales link  Present on the page");

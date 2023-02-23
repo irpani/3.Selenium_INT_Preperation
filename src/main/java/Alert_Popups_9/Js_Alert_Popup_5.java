@@ -12,7 +12,7 @@ public class Js_Alert_Popup_5 {
 
 	// What is Alert () ----> It's not webElmenet & It's not part of the page
 	// These alerts never be in html dom
-	// These are coming becasue Of Browser so quesation how we will validate this ?
+	// These are coming becasue Of Browser so question how we will validate this ?
 	// In this case what should we do ?
 	// JavaScript Pop_up means --> which is coming for JavaScript return by the
 	// Devoloper

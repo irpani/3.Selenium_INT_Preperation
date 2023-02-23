@@ -11,11 +11,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 //Diff B/w //findElement() & //findElements() ?
 //____findElement()_______ method Can utilize any locator
 //Locator's ----8 types
-// 1.d /2.name /3.classname /4.tagname/5.link text/6.partial link text/7.css/8.xpath
+// 1.id /2.name /3.classname /4.tagname/5.link text/6.partial link text/7.css/8.xpath
 
 //Always Crete the web Element then Perform Actions
 // Q:How to create webElements ?
-// A: with help of driver.findElement(by)=> method asks send parameter as by
+// A: with help of driver.findElement(By)=> method asks send parameter as by
 // 
 // Create webElement +actions(Click,sendkeys,getetxt(),isDisplayed,isEnabled()
 // .Click()
@@ -26,10 +26,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 // IsDisplayed()
 
 //______findElements()_____ utilized only tagname =>  By.tagname() 
-//with this we can find All images /links  or it Colud be any thing on the Page
+//with this we can find All images /links  (or) it Colud be any thing on the Page
 //perform Actions like 
 //.getattribute()
 public class Find_ElementsMethod_Concept_1 {
+	public static WebDriver driver;
 
 	public static void main(String[] args) {
 
@@ -57,4 +58,10 @@ public class Find_ElementsMethod_Concept_1 {
 		}
 
 	}
+
+	public static List<WebElement> getElements(By Locator) {
+
+		return driver.findElements(Locator);
+	}
+
 }

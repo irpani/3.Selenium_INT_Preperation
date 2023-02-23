@@ -30,13 +30,13 @@ public class ActionsClickAndSendKeys_4 {
 		Actions act = new Actions(driver);
 
 		/*
-		 * driver.findElement(By.linkText("Register")).click(); WebElement firstName =
-		 * driver.findElement(By.id("input-firstname")); WebElement lastName =
-		 * driver.findElement(By.id("input-lastname"));
+		 * driver.findElement(By.linkText("Register")).click(); WebElement firstName
+		 * =driver.findElement(By.id("input-firstname")); WebElement
+		 * lastName=driver.findElement(By.id("input-lastname"));
 		 * 
-		 * Actions act = new Actions(driver); act.sendKeys(firstName,
-		 * "irfan").build().perform(); act.sendKeys(lastName,
-		 * "pathan").build().perform();
+		 * Actions act = new Actions(driver);
+		 * act.sendKeys(firstName,"irfan").build().perform();
+		 * act.sendKeys(lastName,"pathan").build().perform();
 		 */
 
 		By firstName = By.id("input-firstname");

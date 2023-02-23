@@ -14,6 +14,6 @@ public class Wait_Types_0 {
 
 	// (b).Explicit_wait
 	// =>Fluent_wait
-	// =>Dynamic_wait
+	// =>webDriverwait
 
 }

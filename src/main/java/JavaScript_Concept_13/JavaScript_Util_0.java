@@ -4,7 +4,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-//we  did n't create objects for the classes these Objects default provided by Js We just Start
+//we  did n't create objects for the classes 
+//these Objects default provided by Js We just Start
 //utilizing those Objects ...
 
 //(1).window Object window is object of javaScript

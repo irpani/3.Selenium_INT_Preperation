@@ -35,4 +35,15 @@ public class ElementDisplayed_3 {
 
 	}
 
+	public static boolean doIsSelected(By Locator) {
+
+		return getElement(Locator).isSelected();
+
+	}
+
+	public static boolean isEnabled(By Locator) {
+		return getElement(Locator).isEnabled();
+
+	}
+
 }

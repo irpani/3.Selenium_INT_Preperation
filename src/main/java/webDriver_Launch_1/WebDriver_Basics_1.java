@@ -6,8 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 //FYI First 4 packages like 
-//WebDriver_Launch_1,webDriver_casting_2,Quitvsclose_3,Naviation methods focus ondriver relate methods
-// After that focud on Specific application launching url=>find webElements perform Actions...
+//WebDriver_Launch_1,webDriver_casting_2,Quitvsclose_3,Naviation_4 methods focus ondriver relate methods
+// After that focus on Specific application launching url=>find webElements perform Actions...
 public class WebDriver_Basics_1 {
 
 	public static void main(String[] args) {

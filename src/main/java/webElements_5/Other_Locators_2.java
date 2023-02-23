@@ -14,7 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 //classname()
 
 //We cann't compare id xpath bcz we cann't compare Apple & Orange
-//Set (2): xpath() & CSS(
+//Set (2): xpath() & CSS()
 //These are not Attributes these are address Of an webElements
 
 //Set (3):

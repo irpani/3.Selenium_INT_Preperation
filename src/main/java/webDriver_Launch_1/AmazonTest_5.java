@@ -12,6 +12,7 @@ public class AmazonTest_5 {
 		System.out.println(url);
 
 		String title = b.getPageTitle();
+		// Check Point
 		if (title.contains("Google")) {
 			System.out.println("Title matched");
 		} else {
