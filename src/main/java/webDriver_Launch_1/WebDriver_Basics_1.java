@@ -20,7 +20,7 @@ public class WebDriver_Basics_1 {
 		// Step2:Enter url
 		// Step3:get the Title --> Validation Point (Act Vs Exp...)
 		// Step4:Get the Url
-		// Step5Finally close the Browser
+		// Step5:Finally close the Browser
 
 		// Q:Can we opened Chrome Browser Directy?
 		// A:No ,we need Selenium Server

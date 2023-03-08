@@ -171,6 +171,7 @@ public class Element_Util {
 		return attrList;
 	}
 
+	// Only for Print the Values we write 1 Generic method
 	public void printElementValues(List<String> eleList) {
 		for (String e : eleList) {
 			System.out.println(e);
@@ -270,7 +271,7 @@ public class Element_Util {
 	// @@@@@@@ Jquery DropDown Generic Method @@@@@@
 
 	// (1).for Single Selection
-	// (2).MultiSelevtion
+	// (2).MultiSelection
 	public void selectByChoice(By Locator, String... value) {
 		List<WebElement> choicelist = driver.findElements(Locator);
 		for (WebElement e : choicelist) {
@@ -401,7 +402,7 @@ public class Element_Util {
 		return wait.until(ExpectedConditions.visibilityOfElementLocated(Locator));
 	}
 
-	// 2(b).Vivibility Of Element with webElement
+	// 2(b).Visibility Of Element with webElement
 	public WebElement waitForElementToBeVisibleWithWebElement(By Locator, int timeOut) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOut));
 		return wait.until(ExpectedConditions.visibilityOf(getElement(Locator)));

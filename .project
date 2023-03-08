@@ -332,6 +332,11 @@
 			<location>C:/Users/Hi/Desktop/Naveen Selenium/Wdm will take browser aUTOMATICALLY.png</location>
 		</link>
 		<link>
+			<name>src/main/java/ScreenShot_19/Partial screenShot.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Partial screenShot.png</location>
+		</link>
+		<link>
 			<name>src/main/java/WebDriver_castings_2/0.Selenium Architecture.png</name>
 			<type>1</type>
 			<location>C:/Users/Hi/Desktop/Naveen Selenium/Selenium Architecture.png</location>

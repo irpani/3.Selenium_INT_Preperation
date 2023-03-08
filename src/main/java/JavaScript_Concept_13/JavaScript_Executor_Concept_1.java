@@ -1,6 +1,7 @@
 package JavaScript_Concept_13;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -87,6 +88,15 @@ public class JavaScript_Executor_Concept_1 {
 		// jsUtil.scrollPageDown();
 		// jsUtil.scrollPageDown(height);
 		// jsUtil.scrollIntoView(about_us);
+		// Vertical Scroll:
+		// Horizontal Scroll
+
+		// Create object of JavascriptExecutor
+		// Vertical Scroll:
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("javascript:window.scrollBy(0,350)");
+		// Horizontal Scroll
+		js.executeScript("javascript:window.scrollBy(250,0)");
 
 		jsUtil.scrollPageDown(); // Complete Scroll down
 		// jsUtil.scrollPageDown("150"); //Scroll up to Speicific Height

@@ -33,6 +33,7 @@ public class Locator_Concept_ID_1 {
 		// .Click()
 		// .sendkeys()
 		// .getText()
+		// getAttribute
 
 		// IsSelected()
 		// IsEnabled()
@@ -151,4 +152,11 @@ public class Locator_Concept_ID_1 {
 
 		getElement(Locator).getText();
 	}
+
+	public static String getAttribute(By Locatror, String str) {
+
+		return getElement(Locatror).getAttribute(str);
+
+	}
+
 }
