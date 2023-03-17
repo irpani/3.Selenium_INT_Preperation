@@ -35,9 +35,9 @@ public class Locator_Concept_ID_1 {
 		// .getText()
 		// getAttribute
 
-		// IsSelected()
 		// IsEnabled()
 		// IsDisplayed()
+		// IsSelected()
 
 		// Locator's ----8 types
 		// id /name /classname /tagname/link text/partial link text/css/xpath

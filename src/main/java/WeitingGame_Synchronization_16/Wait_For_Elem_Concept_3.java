@@ -150,6 +150,7 @@ public class Wait_For_Elem_Concept_3 {
 	public static List<WebElement> waitForElementsToBeVisible(By Locator, int timeOut, long intervalTime) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOut), Duration.ofMillis(intervalTime));
 		return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(Locator));
+
 	}
 
 	// getting text for multipe Elments

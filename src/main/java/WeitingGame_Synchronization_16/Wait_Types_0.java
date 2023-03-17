@@ -8,6 +8,7 @@ public class Wait_Types_0 {
 	// (1).Static wait: Pause the Script up to the time
 	// -----------------
 	// Thread.sleep(5000);
+
 	// (2).Dynamic wait
 	// -------------------
 	// (a).Implicit_wait Ignore the time If element Avaialble upto the time

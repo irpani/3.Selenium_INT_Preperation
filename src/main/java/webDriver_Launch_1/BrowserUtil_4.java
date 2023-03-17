@@ -13,9 +13,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 //driver Launch
 //driver.get("")
+//driver.getTitle() 
 //driver.currenturl()
 //driver.pagesource()  ---- not used in Automation
-//driver.getTitle() 
+
 //driver.close()
 //driver.quit()
 public class BrowserUtil_4 {

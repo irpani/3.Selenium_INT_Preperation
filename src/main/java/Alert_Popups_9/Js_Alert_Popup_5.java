@@ -27,7 +27,8 @@ public class Js_Alert_Popup_5 {
 	// (5).Modal Dialogue
 	// (6).Js Popup
 
-	// Only one alert at a time we cann't handle multiple At a Time ...
+	// Only one alert at a time we cann't handle it,we cann't handle multiple At a
+	// Time ...
 	// It can be 1 after another click on k then another like wise we can handle at
 	// a time not possible
 	public static void main(String[] args) throws InterruptedException {
