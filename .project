@@ -137,6 +137,11 @@
 			<location>C:/Users/Hi/Desktop/Naveen Selenium/action.sendkeys.png</location>
 		</link>
 		<link>
+			<name>src/main/java/Actions_15/ENUM _Keys. Operations.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/ENUM _Keys. Operations.png</location>
+		</link>
+		<link>
 			<name>src/main/java/Alert_Popups_9/1.alert method gives alert pop_up.png</name>
 			<type>1</type>
 			<location>C:/Users/Hi/Desktop/Naveen Selenium/alert method gives alert pop_up.png</location>

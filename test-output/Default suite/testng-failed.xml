@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG_XML_File.OpenCartTest_3">
+      <class name="Get_Window_Handles.Getwindowhandles">
         <methods>
-          <include name="tearDown"/>
-          <include name="registerTest"/>
-          <include name="setUp"/>
+          <include name="getwindowhandle"/>
         </methods>
-      </class> <!-- testNG_XML_File.OpenCartTest_3 -->
+      </class> <!-- Get_Window_Handles.Getwindowhandles -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
