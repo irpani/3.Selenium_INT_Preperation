@@ -17,10 +17,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 // Q:How to create webElements ?
 // A: with help of driver.findElement(By)=> method asks send parameter as by
 // 
-// Create webElement +actions(Click,sendkeys,getetxt(),isDisplayed,isEnabled()
+// Create webElement + actions(Click,sendkeys,getetxt(),isDisplayed,isEnabled()
 // .Click()
 // .sendkeys()
 // .getText()
+//.getAttribute()
 // IsSelected()
 // IsEnabled()
 // IsDisplayed()
@@ -38,8 +39,8 @@ public class Find_ElementsMethod_Concept_1 {
 		// Then print the text of each link on the console
 
 		WebDriverManager.chromedriver().setup();
-
 		WebDriver driver = new ChromeDriver();
+
 		driver.get("https://www.freshworks.com/");
 
 		List<WebElement> linksList = driver.findElements(By.tagName("a"));

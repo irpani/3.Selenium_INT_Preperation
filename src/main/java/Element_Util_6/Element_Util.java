@@ -27,6 +27,7 @@ public class Element_Util {
 	// So What is the solution here create a Constructor
 	// Constructor:-
 	// --------------
+	// Element Util have 1 Constructor It is waiting for driver
 
 	public Element_Util(WebDriver driver) {
 		this.driver = driver;
@@ -40,7 +41,7 @@ public class Element_Util {
 
 	// (2).Using String Locator's
 
-	// (3).
+	// (3).Dynamic wait Applied to the webElement
 	public WebElement getElement(By Locator, int timeOut) {
 		// return driver.findElement(Locator);
 		return doPresenceOfElementLocated(Locator, timeOut);
@@ -56,14 +57,14 @@ public class Element_Util {
 	// (2).Using String Locator's
 
 	/*
-	 * // ___________(3).Elements Visible______ It's like driver.findElements()
-	 * method public List<WebElement> waitForElementsToBeVisible(By Locator, int
-	 * timeOut) { WebDriverWait wait = new WebDriverWait(driver,
-	 * Duration.ofSeconds(timeOut)); return
+	 * // __(3).Elements Visible___ It's like driver.findElements() method with time
+	 * public List<WebElement> waitForElementsToBeVisible(By Locator, int timeOut) {
+	 * WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOut));
+	 * return
 	 * wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(Locator)); }
 	 */
 
-	// click() method we can use 3 ways
+	// click() method we can use in 3 Ways
 	// (1).
 	public void doClick(By Locator) {
 
@@ -107,9 +108,9 @@ public class Element_Util {
 	}
 	// (2).
 	/*
-	 * // With Pooling Interval Time: public WebElement waitForElementToBeVisible(By
-	 * Locator, int timeOut, long intervalTime) { WebDriverWait wait = new
-	 * WebDriverWait(driver, Duration.ofSeconds(timeOut),
+	 * // With Pooling Interval Time: public WebElement
+	 * waitForElementToBeVisible(ByLocator, int timeOut, long intervalTime) {
+	 * WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOut),
 	 * Duration.ofMillis(intervalTime)); return
 	 * wait.until(ExpectedConditions.visibilityOfElementLocated(Locator)); }
 	 */
@@ -325,7 +326,7 @@ public class Element_Util {
 	// *******************ACTIONS UTIL **********************************
 
 	// Q:How to deal with Actions ?
-	// A:____Simple Logic create webElement then perform Actions _______
+	// A:____Simple Logic create webElement then perform Actions ____
 	public void doMoveToElement(By Locator) {
 		Actions act = new Actions(driver);
 		act.moveToElement(getElement(Locator)).build().perform();

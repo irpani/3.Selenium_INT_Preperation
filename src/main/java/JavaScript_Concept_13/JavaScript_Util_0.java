@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 //we  did n't create objects for the classes 
-//these Objects default provided by Js We just Start
+//These Objects default provided by Js We just Start
 //utilizing those Objects ...
 
 //(1).window Object window is object of javaScript
@@ -16,6 +16,7 @@ import org.openqa.selenium.WebElement;
 public class JavaScript_Util_0 {
 	private WebDriver driver;
 
+	// JavaScript Executor have 1 class It will wait for
 	public JavaScript_Util_0(WebDriver driver) {
 		this.driver = driver;
 	}

@@ -34,7 +34,8 @@ public class BrowserUtil_4 {
 	 * @return this will return the driver
 	 */
 
-	public WebDriver launchBrowser(String browser) {
+	public WebDriver launchBrowser(String browser) { // This may Come from Config.properties/excel/Xml we discuss this
+														// in framework level
 
 		if (browser.equalsIgnoreCase("Chrome")) {
 			WebDriverManager.chromedriver().setup();
@@ -60,12 +61,12 @@ public class BrowserUtil_4 {
 	 * @param url
 	 */
 	public void enterUrl(String url) {
-		// Validation Points
+		// Validation Points for Url Missing
 		if (url == null) {
 			System.out.println("URL is null ...");
 			return;
 		}
-		// Validation Points
+		// Validation Points for Http missing
 		if (url.indexOf("http") == -1) {
 			System.out.println("http missing in URL");
 			return;

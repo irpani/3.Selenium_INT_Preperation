@@ -9,13 +9,14 @@ public class Launch_Firefox_2 {
 
 	public static void main(String[] args) {
 		// ____Firefox Launch____
+
 		WebDriverManager.firefoxdriver().setup();
 		WebDriver driver = new FirefoxDriver();
 
 		driver.get("https://www.google.com/");
 		String title = driver.getTitle();
 		System.out.println("Current title of the Page is:" + title);
-		driver.quit();
+		// driver.quit();
 
 		// ______Instead of Individual Launching like above _____
 		// (1).Chrome launch =>WebDriver driver = new ChromeDriver();

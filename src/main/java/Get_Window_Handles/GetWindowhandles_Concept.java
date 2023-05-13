@@ -4,7 +4,7 @@ import java.util.Set;
 
 import org.openqa.selenium.NoSuchWindowException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -25,9 +25,9 @@ public class GetWindowhandles_Concept {
 
 	public static void main(String[] args) {
 
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
-
+		WebDriverManager.firefoxdriver().setup();
+		driver = new FirefoxDriver();
+		windowByTitle(driver, "Google");
 	}
 
 }

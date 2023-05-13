@@ -27,7 +27,7 @@ public class Navigation_Methods_1 {
 		driver.navigate().to("https://www.amazon.com/");
 		System.out.println(driver.getTitle());
 
-		// Now I want to back again On My previois Page
+		// Now I want to back again On My previous Page
 		driver.navigate().back();
 		System.out.println(driver.getTitle());
 

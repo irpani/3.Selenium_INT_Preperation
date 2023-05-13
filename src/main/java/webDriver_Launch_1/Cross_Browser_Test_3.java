@@ -13,9 +13,8 @@ public class Cross_Browser_Test_3 {
 	static WebDriver driver;
 
 	public static void main(String[] args) {
-		String browser = "Chrome"; // This Browser name may Come from any where from Excel Sheet/Xml file/Config
-									// file
-		// this one is the framework part that we can talk later
+		String browser = "Firefox"; // This Browser name may Come from any where from Excel Sheet/Xml file/Config
+		// file this one is the framework part that we can talk later
 		if (browser.equalsIgnoreCase("Chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();

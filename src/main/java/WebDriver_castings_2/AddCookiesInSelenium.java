@@ -1,8 +1,8 @@
 package WebDriver_castings_2;
 
 import java.text.ParseException;
+import java.time.Duration;
 import java.util.Set;
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
@@ -26,13 +26,16 @@ public class AddCookiesInSelenium {
 		driver = new ChromeDriver();
 		// navigate to site
 		driver.get("https://www.flipkart.com/");
+
 		// An implicit wait tells WebDriver to poll the DOM for a certain amount of time
 		// when trying to find an element
 		// or elements if they are not immediately available.
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
+
 		// to add cookie need to create object of Cookie class
 		Cookie cookie = new Cookie("customeCookie", "12345");
 		driver.manage().addCookie(cookie);
+
 		// it will get all cookie of web page
 		Set<Cookie> cookies = driver.manage().getCookies();
 		for (Cookie cook : cookies) {

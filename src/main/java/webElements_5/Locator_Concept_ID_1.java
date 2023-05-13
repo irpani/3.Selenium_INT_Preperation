@@ -19,9 +19,11 @@ public class Locator_Concept_ID_1 {
 
 		WebDriverManager.chromedriver().setup();
 
-		driver = new ChromeDriver();// (1).Launch the Browse
-		driver.get("https://demo.opencart.com/index.php?route=account/login");// (2).Enter the URL
+		// (1).Launch the Browse
+		// (2).Enter the URL
 
+		driver = new ChromeDriver();
+		driver.get("https://demo.opencart.com/index.php?route=account/login");
 		// (3).Page got loaded
 
 		// (4).Always Crete the web Element then Perform Actions
@@ -69,10 +71,11 @@ public class Locator_Concept_ID_1 {
 		// ----------------
 		By username = By.id("input-email");
 		By password = By.id("input-password");
+
 		WebElement emilid = driver.findElement(username);
-		WebElement pd = driver.findElement(password);
+		WebElement pwd = driver.findElement(password);
 		emailId.sendKeys("naveenautomation20@gmail.com");
-		pd.sendKeys("test@123");
+		pwd.sendKeys("test@123");
 
 		// Among 1,2,3 which one u prefer ? (A):3 is better
 
@@ -92,7 +95,7 @@ public class Locator_Concept_ID_1 {
 		doSendkeys(username, "naveenautomation20@gmail.com");
 		doSendkeys(password, "test@123");
 
-		// (4),(5) cases are returned in Individually y cann't we create one generic
+		// (4),(5) Cases are returned in Individually y cann't we create one generic
 		// class so that utilized globally in my Framework level
 		// utilized for Any page webApplication
 
@@ -103,7 +106,8 @@ public class Locator_Concept_ID_1 {
 		By username1 = By.id("input-email");
 		By password1 = By.id("input-password");
 		Element_Util eleUtil = new Element_Util(driver); // here Driver pointed to Chrome Already Initialized in this
-															// class
+		// Elment_Util have 1 constructor It's waiting for Drivder So pass here .. //
+		// class
 		eleUtil.getElement(username1);
 		eleUtil.doSendkeys(username1, "naveenautomation20@gmail.com");
 		// eleUtil.doClick(Locator);
@@ -111,7 +115,7 @@ public class Locator_Concept_ID_1 {
 		// ____7th Approch:______
 		// 7th Approch:What could be the 7th Aproch?
 		// String Locator's: Not preferable ...
-		// ------------------
+		// -----------------
 		// Some people did to not use the By Locator's they used String locator Value..
 		// I'm not Comfortable with By locator I want to use String locator's
 		// By username1 = By.id("input-email"); this 6th Approch Again Devided 2 parts
@@ -122,10 +126,12 @@ public class Locator_Concept_ID_1 {
 
 		// ____9th Approch ???_____
 		By userame = By.name("username");
+
+		// here until() method return type ---> WebElement
 		// I'm going to apply wait for specific Element so I create Object for it ...
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		// presenceOfElementLocated() -expect a By locator not a webElement
-		// until() -- return a webElement
+		// until() --> return a webElement
 		WebElement userName = wait.until(ExpectedConditions.presenceOfElementLocated(username));
 		userName.sendKeys("naveen");
 

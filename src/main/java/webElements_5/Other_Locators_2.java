@@ -8,10 +8,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 // Remember Attributes Are available in the form of (Key, Value) Pairs ...
-//Set (1):these below are Attributes  we can Compare these 3 which One is best 
-//Id()
-//name()
-//classname()
+//Set (1):These below are Attributes  We can Compare these 3 Which One is best 
+//1...Id()
+//2....name()
+//3....classname()
 
 //We cann't compare id xpath bcz we cann't compare Apple & Orange
 //Set (2): xpath() & CSS()
@@ -26,7 +26,7 @@ public class Other_Locators_2 {
 	static WebDriver driver;
 
 	public static void main(String[] args) throws InterruptedException {
-		// (1)id -it's unique attribute Can n't be Duplicate
+		// (1).id -It's Unique attribute Can n't be Duplicate
 
 		// (2). name:- CRM PRO Application
 		// ------ Name can be Duplicate 99% of cases Unique.....
@@ -52,7 +52,7 @@ public class Other_Locators_2 {
 		// The problem with this locator is multiple Elements having same class name If
 		// I try to
 		// enter the username It will enter the username on the very first time class
-		// name located
+		// Name located
 
 		// driver.findElement(By.className("form-control")).sendKeys("naveen");
 
@@ -81,7 +81,7 @@ public class Other_Locators_2 {
 
 		// Q: Compare xpath VS css multiple points we cn discuss later ...
 		// imp point html tag of links always <a >
-		// (6).Linktext --- Name it self we can understand It's only for links
+		// (6).Linktext ---> Name it self we can understand It's only for links
 		By register = By.linkText("Register");
 		// driver.findElement(By.linkText("Register")).click();
 
