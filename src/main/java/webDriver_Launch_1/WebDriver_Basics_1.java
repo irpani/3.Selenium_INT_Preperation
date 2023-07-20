@@ -35,6 +35,7 @@ public class WebDriver_Basics_1 {
 
 		driver.get("https://www.google.com/"); // http(or)https is mandatory ,www --optional
 		String title = driver.getTitle();
+		String actURL = driver.getCurrentUrl();
 		System.out.println("Current title of the Page is:" + title);
 
 		// ______Validation/Checkpoint (or) Assertion ______mandatory As Automation
@@ -51,7 +52,7 @@ public class WebDriver_Basics_1 {
 		/*
 		 * Assert.assertEquals(title, EXPECTED_TITLE); driver.quit();
 		 */
-		// driver.close();
+		driver.close();
 		// Practice multiple sites Validations
 
 	}
