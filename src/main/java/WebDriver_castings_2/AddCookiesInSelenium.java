@@ -6,8 +6,10 @@ import java.util.Set;
 
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class AddCookiesInSelenium {
 	WebDriver driver;
@@ -19,11 +21,10 @@ public class AddCookiesInSelenium {
 		// For Window user
 		// System.setProperty("webdriver.chrome.driver",
 		// "/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver.exe");
+		WebDriverManager.firefoxdriver().setup();
 
-		System.setProperty("webdriver.chrome.driver",
-				"/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver");
 		// create chrome object
-		driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 		// navigate to site
 		driver.get("https://www.flipkart.com/");
 
@@ -33,6 +34,7 @@ public class AddCookiesInSelenium {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
 
 		// to add cookie need to create object of Cookie class
+
 		Cookie cookie = new Cookie("customeCookie", "12345");
 		driver.manage().addCookie(cookie);
 

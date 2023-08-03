@@ -5,7 +5,7 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -17,12 +17,12 @@ public class Locator_Concept_ID_1 {
 
 	public static void main(String[] args) {
 
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.firefoxdriver().setup();
 
 		// (1).Launch the Browse
 		// (2).Enter the URL
 
-		driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 		driver.get("https://demo.opencart.com/index.php?route=account/login");
 		// (3).Page got loaded
 

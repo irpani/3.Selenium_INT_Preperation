@@ -24,6 +24,7 @@ public class Attribute_Concept {
 		}
 	}
 
+	// Generic Methods for getAttribute():
 	public static String getAttributeValue(By Locator, String attrName) {
 
 		return getElement(Locator).getAttribute(attrName);

@@ -36,7 +36,7 @@ public class Reg_Page_Test {
 		eleUtil.doSendkeys(email, "Sharmin@gmail.com");
 		Thread.sleep(5000);
 
-		brUtil.closeBrowser();
+		brUtil.QuitBrowser();
 		// Q: y cann't These element Utilities taking as static in Nature?
 		// A:This is the problem most of the people do it ...
 		// If one utility I make it as Static => webDriver also we make it as static

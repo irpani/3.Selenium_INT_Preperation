@@ -5,7 +5,7 @@ public class AmazonTest_5 {
 	public static void main(String[] args) {
 		// With Browser Util Code return in Good readable format ...
 		BrowserUtil_4 b = new BrowserUtil_4();
-		b.launchBrowser("Chrome");
+		b.launchBrowser("Firefox");
 		b.enterUrl("https://www.google.com/");
 
 		String url = b.getAppCurrentUrl();
@@ -19,7 +19,7 @@ public class AmazonTest_5 {
 			System.out.println("Title Not MAatched");
 		}
 
-		b.closeBrowser();
+		b.QuitBrowser();
 	}
 
 }

@@ -8,8 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-//gettext()     -- for webElements
-// getattribute() -- method for attributes
+//gettext()       --- for webElements
+// getattribute() --- method for attributes
 //Images are having Different types Of Attributes
 //Images are represeted by img tag and then there are  Specific attributes... u  can see alt
 //src - where those images coming from

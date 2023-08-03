@@ -20,8 +20,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 // Create webElement + actions(Click,sendkeys,getetxt(),isDisplayed,isEnabled()
 // .Click()
 // .sendkeys()
+
 // .getText()
 //.getAttribute()
+
 // IsSelected()
 // IsEnabled()
 // IsDisplayed()

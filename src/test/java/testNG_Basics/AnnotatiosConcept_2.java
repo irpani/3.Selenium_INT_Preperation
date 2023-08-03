@@ -18,7 +18,7 @@ public class AnnotatiosConcept_2 {
 	}
 	// Every Annotation is Associated with Method ...
 
-	// Q1:these are the below Annotations ? How did they wil strat workimg ?
+	// Q1:these are the below Annotations ? How did they will strat workimg ?
 	// Q2What is the Sequence ?
 	// A:
 	/*

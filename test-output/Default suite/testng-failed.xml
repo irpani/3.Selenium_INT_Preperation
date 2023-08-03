@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Get_Window_Handles.Getwindowhandles">
+      <class name="WebDriver_castings_2.AddCookiesInSelenium">
         <methods>
-          <include name="getwindowhandle"/>
+          <include name="enterText"/>
         </methods>
-      </class> <!-- Get_Window_Handles.Getwindowhandles -->
+      </class> <!-- WebDriver_castings_2.AddCookiesInSelenium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

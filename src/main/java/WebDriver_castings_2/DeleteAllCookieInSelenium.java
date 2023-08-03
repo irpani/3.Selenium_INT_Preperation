@@ -4,8 +4,10 @@ import java.util.Set;
 
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DeleteAllCookieInSelenium {
 
@@ -18,16 +20,16 @@ public class DeleteAllCookieInSelenium {
 		// System.setProperty("webdriver.chrome.driver",
 		// "/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver.exe");
 
-		System.setProperty("webdriver.chrome.driver",
-				"/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver");
+		WebDriverManager.firefoxdriver().setup();
+
 		// create chrome object
-		driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 		driver.navigate().to("http://flipkart.com/");
 		driver.manage().deleteAllCookies();
 		// After adding the cookie we will check that by displaying all the cookies.
 		Set<Cookie> cookiesList = driver.manage().getCookies();
-		for (Cookie getcookies : cookiesList) {
-			System.out.println(getcookies);
+		for (Cookie allcookies : cookiesList) {
+			System.out.println(allcookies);
 		}
 	}
 }

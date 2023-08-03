@@ -95,8 +95,8 @@ public class BrowserUtil_4 {
 		return driver.getTitle();
 	}
 
-	public void closeBrowser() {
-		driver.close();
+	public void QuitBrowser() {
+		driver.quit();
 
 	}
 

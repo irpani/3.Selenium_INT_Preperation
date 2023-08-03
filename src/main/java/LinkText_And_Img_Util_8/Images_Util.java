@@ -15,7 +15,7 @@ public class Images_Util {
 	// You have to get the count of All images of page
 	// Then capture the src/alt attribues of each image on the console
 
-	// we want to create one Generic method so that we can capture any attribute
+	// We want to create one Generic method so that we can capture any attribute
 	// Not Specific to srcv/alt
 	public static void main(String[] args) { // User Logic
 

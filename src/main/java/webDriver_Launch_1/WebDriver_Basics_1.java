@@ -19,7 +19,7 @@ public class WebDriver_Basics_1 {
 		// If u want to open the Google what comes in your mind Looking forBrowser to
 		// open the Application/Site
 
-		// ________ Manual Steps U ruturned as_________
+		// ________ Manual Steps U returned as_________
 		// Step 1:Open Chrome Browser
 		// Step 2:Enter url
 		// Step 3:get the Title --> Validation Point (Act Vs Exp...)

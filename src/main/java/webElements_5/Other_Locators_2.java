@@ -52,7 +52,7 @@ public class Other_Locators_2 {
 		// The problem with this locator is multiple Elements having same class name If
 		// I try to
 		// enter the username It will enter the username on the very first time class
-		// Name located
+		// Name Locator/Element located
 
 		// driver.findElement(By.className("form-control")).sendKeys("naveen");
 
