@@ -4,7 +4,7 @@
 <suite name="Regression Test" thread-count="3" parallel="tests" verbose="3">
 	<test name="GoogleTest">
 	<parameter name="url" value="https://www.google.com/"/>
-	<parameter name="browser" value="chrome"/>
+	<parameter name="browser" value="firefox"/>
 	<classes>
       <class name="testNG_XML_File.GoogleTest_1" />
    </classes>
@@ -12,7 +12,7 @@
 
 	<test name="Orange HRM Test">
 		<parameter name="url" value="https://www.orangehrm.com/"/>
-       <parameter name="browser" value="chrome"/>
+       <parameter name="browser" value="firefox"/>
        <classes>
 		<class name="testNG_XML_File.OrangeHRMTest_2" />
       </classes>
@@ -20,7 +20,7 @@
 
 <test name="Opencart Test">
 	<parameter name="url" value="https://demo.opencart.com/index.php?route=account/login"/>	
-      <parameter name="browser" value="chrome"/>
+      <parameter name="browser" value="firefox"/>
        <classes>
 		<class name="testNG_XML_File.OpenCartTest_3" />
       </classes>

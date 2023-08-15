@@ -7,7 +7,7 @@ import java.util.Date;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -17,8 +17,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  */
 public class Calendar_Utility {
 	public static void main(String[] args) throws Exception {
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.hyrtutorials.com/p/calendar-practice.html");
 

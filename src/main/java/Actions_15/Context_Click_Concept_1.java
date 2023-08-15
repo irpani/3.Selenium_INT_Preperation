@@ -30,12 +30,12 @@ public class Context_Click_Concept_1 {
 
 		WebElement rightClickMe = driver.findElement(By.xpath("//span[text()='right click me']"));
 
-		Actions act = new Actions(driver);
+		Actions actions = new Actions(driver);
 
 		// here only 1 Action so I can write like this
-		act.contextClick(rightClickMe).build(); // Not Valid
-		act.contextClick(rightClickMe).perform(); // valid
-		act.contextClick(rightClickMe).build().perform(); // valid
+		actions.contextClick(rightClickMe).build(); // Not Valid
+		actions.contextClick(rightClickMe).perform(); // valid
+		actions.contextClick(rightClickMe).build().perform(); // valid
 
 		List<WebElement> text = driver.findElements(By.xpath(
 				"//ul[@class='context-menu-list context-menu-root']/li[contains(@class,' context-menu-icon')]/span"));

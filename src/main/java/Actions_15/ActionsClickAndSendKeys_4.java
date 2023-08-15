@@ -49,7 +49,7 @@ public class ActionsClickAndSendKeys_4 {
 		// doActionSendkeysOnActiveWebElement(firstName, "Irfan");
 		// doActionSendkeysOnActiveWebElement(lastName, "Pathan");
 		// doActionClick(checKBox);
-		doActionClick(checKBox);
+		doActionClick(checKBox); // It will Click Exactly At middle of the Element
 		// doActionClickMoveToElement(checKBox);
 	}
 

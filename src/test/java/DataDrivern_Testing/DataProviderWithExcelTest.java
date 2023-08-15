@@ -12,11 +12,6 @@ import org.testng.annotations.Test;
 
 public class DataProviderWithExcelTest {
 
-	@Test(dataProvider = "getData")
-	public void test1(String username, String password, String fname, String lname) {
-		System.out.println(username);
-	}
-
 	@DataProvider
 	public Object[][] getData() throws IOException {
 
@@ -40,9 +35,9 @@ public class DataProviderWithExcelTest {
 		return data;
 	}
 
-	@Test(dataProvider = "getData1")
-	public void test2(Map<String, String> map) {
-		System.out.println(map.get("username"));
+	@Test(dataProvider = "getData")
+	public void test1(String username, String password, String fname, String lname) {
+		System.out.println(username);
 	}
 
 	@DataProvider
@@ -71,6 +66,11 @@ public class DataProviderWithExcelTest {
 		}
 		return data;
 
+	}
+
+	@Test(dataProvider = "getData1")
+	public void test2(Map<String, String> map) {
+		System.out.println(map.get("username"));
 	}
 
 }
