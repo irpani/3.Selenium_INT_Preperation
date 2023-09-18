@@ -1,47 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Regression Test]" parallel="tests">
-  <test thread-count="3" verbose="3" name="Orange HRM Test(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="https://www.orangehrm.com/"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG_XML_File.OrangeHRMTest_2">
+      <class name="Actions_15.KeyBoard_2">
         <methods>
-          <include name="tearDown"/>
-          <include name="urlTest"/>
-          <include name="contactSalesTest"/>
-          <include name="setUp"/>
+          <include name="keyboardAndMouseEventUsingActionClassInSelenium"/>
         </methods>
-      </class> <!-- testNG_XML_File.OrangeHRMTest_2 -->
+      </class> <!-- Actions_15.KeyBoard_2 -->
     </classes>
-  </test> <!-- Orange HRM Test(failed) -->
-  <test thread-count="3" verbose="3" name="Opencart Test(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="https://demo.opencart.com/index.php?route=account/login"/>
-    <classes>
-      <class name="testNG_XML_File.OpenCartTest_3">
-        <methods>
-          <include name="tearDown"/>
-          <include name="registerTest"/>
-          <include name="setUp"/>
-          <include name="urlTest"/>
-        </methods>
-      </class> <!-- testNG_XML_File.OpenCartTest_3 -->
-    </classes>
-  </test> <!-- Opencart Test(failed) -->
-  <test thread-count="3" verbose="3" name="GoogleTest(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="https://www.google.com/"/>
-    <classes>
-      <class name="testNG_XML_File.GoogleTest_1">
-        <methods>
-          <include name="searchTest"/>
-          <include name="googleSearchTest"/>
-          <include name="tearDown"/>
-          <include name="urlTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testNG_XML_File.GoogleTest_1 -->
-    </classes>
-  </test> <!-- GoogleTest(failed) -->
-</suite> <!-- Failed suite [Regression Test] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

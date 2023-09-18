@@ -207,6 +207,11 @@
 			<location>C:/Users/Hi/Desktop/Naveen Selenium/for vs foreach loop.png</location>
 		</link>
 		<link>
+			<name>src/main/java/DropDowns_10/8.Select By Index Value Visible Text in 1 Diagram.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Select By Index Value Visible Text in 1 Diagram.png</location>
+		</link>
+		<link>
 			<name>src/main/java/Element_Util_6/ElementUtil_Methods_Cannot_Static.png</name>
 			<type>1</type>
 			<location>C:/Users/Hi/Desktop/Naveen Selenium/ElementUtil_Methods_Cannot_Static.png</location>
@@ -482,6 +487,16 @@
 			<location>C:/Users/Hi/Desktop/Naveen Selenium/Deprecated So Can use  DurationTimeOut.png</location>
 		</link>
 		<link>
+			<name>src/main/java/Xpath_And_Css_17/Axes RelationShip Table.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Axes RelationShip Table.png</location>
+		</link>
+		<link>
+			<name>src/main/java/Xpath_And_Css_17/Axes Xpath family.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Axes Xpath family.png</location>
+		</link>
+		<link>
 			<name>src/main/java/webDriver_Launch_1/0.Selenium Archecture.png</name>
 			<type>1</type>
 			<location>C:/Users/Hi/Desktop/Naveen Selenium/Selenium Archecture.png</location>
@@ -560,6 +575,11 @@
 			<name>src/main/java/webElements_5/6.webElement Hierarchy.png</name>
 			<type>1</type>
 			<location>C:/Users/Hi/Desktop/Naveen Selenium/webElement Hierarchy.png</location>
+		</link>
+		<link>
+			<name>src/main/java/webElements_5/Tag Attribute Value.png</name>
+			<type>1</type>
+			<location>C:/Users/Hi/Desktop/Naveen Selenium/Tag Attribute Value.png</location>
 		</link>
 		<link>
 			<name>src/test/java/testNG_Basics/1.testNg Most StaBLE depencency.png</name>

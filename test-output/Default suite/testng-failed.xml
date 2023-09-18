@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WebDriver_castings_2.AddCookiesInSelenium">
+      <class name="Actions_15.KeyBoard_2">
         <methods>
-          <include name="enterText"/>
+          <include name="keyboardAndMouseEventUsingActionClassInSelenium"/>
         </methods>
-      </class> <!-- WebDriver_castings_2.AddCookiesInSelenium -->
+      </class> <!-- Actions_15.KeyBoard_2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
