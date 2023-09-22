@@ -10,10 +10,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 //(A):Alert is an interface ...
 
 /*3 types of pop-ups:
-0).Simple Confirmation Prompt
-1) alerts – JavaScript Pop Up – Alert API (accept, dismiss)
-2) File Upload pop up – Browse button (type = file, sendkeys(path)
-3) Browser window pop up – Advertisement pop up (windowHandler API – getWindowHandles())*/
+(0).Simple Alert Confirmation Alert Prompt Alert
+(1) alerts – JavaScript Pop Up – Alert API (accept, dismiss)
+(2) File Upload pop up – Browse button (type = file, sendkeys(path)
+(3) Browser window pop up – Advertisement pop up (windowHandler API – getWindowHandles())*/
 
 public class Popup_3_Types_0 {
 

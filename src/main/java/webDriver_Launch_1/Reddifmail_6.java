@@ -1,6 +1,6 @@
 package webDriver_Launch_1;
 
-public class Reddifmail6 {
+public class Reddifmail_6 {
 
 	public static void main(String[] args) {
 		BrowserUtil_4 b = new BrowserUtil_4();

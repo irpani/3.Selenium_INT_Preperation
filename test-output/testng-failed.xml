@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Actions_15.KeyBoard_2">
+      <class name="testNG_Basics.SampleTest_3">
         <methods>
-          <include name="keyboardAndMouseEventUsingActionClassInSelenium"/>
+          <include name="searchTest"/>
+          <include name="tearDown"/>
+          <include name="urlTest"/>
+          <include name="googleSearchTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- Actions_15.KeyBoard_2 -->
+      </class> <!-- testNG_Basics.SampleTest_3 -->
+      <class name="testNG_Basics.AnnotatiosConcept_2">
+        <methods>
+          <include name="loginToApp"/>
+          <include name="accountInfoTest"/>
+          <include name="logout"/>
+          <include name="DBConnection"/>
+          <include name="deleteTestUser"/>
+          <include name="userInfoTest"/>
+          <include name="clearBrowser"/>
+          <include name="disCoonectDataBase"/>
+          <include name="createUser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testNG_Basics.AnnotatiosConcept_2 -->
+      <class name="testNG_Basics.GoogleTest_4">
+        <methods>
+          <include name="tearDown"/>
+          <include name="urlTest"/>
+          <include name="googleSearchTest"/>
+          <include name="setUp"/>
+          <include name="searchTest"/>
+        </methods>
+      </class> <!-- testNG_Basics.GoogleTest_4 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
