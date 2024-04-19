@@ -5,9 +5,11 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class AlertInSelenium {
 
@@ -16,15 +18,8 @@ public class AlertInSelenium {
 	@Test
 	public void enterText() throws InterruptedException, ParseException {
 
-		// First step set the driver location
-		// For Window user
-		// System.setProperty("webdriver.chrome.driver",
-		// "/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver.exe");
-
-		System.setProperty("webdriver.chrome.driver",
-				"/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver");
-		// create chrome object
-		driver = new ChromeDriver();
+		WebDriverManager.firefoxdriver().setup();
+		driver = new FirefoxDriver();
 		// navigate to site
 		driver.get("file:///Users/bsingh5/Downloads/startbootstrap-sb-admin-2-gh-pages/pages/index.html");
 		// An implicit wait tells WebDriver to poll the DOM for a certain amount of time

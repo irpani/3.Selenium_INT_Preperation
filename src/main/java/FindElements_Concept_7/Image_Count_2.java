@@ -25,12 +25,16 @@ public class Image_Count_2 {
 		driver = new FirefoxDriver();
 		driver.get("https://www.freshworks.com/");
 
+		// ____With For Loop____
 		/*
 		 * List<WebElement> img_list = driver.findElements(By.tagName("img"));
 		 * System.out.println(img_list.size()); for (WebElement e : img_list) { String
 		 * alt_value = e.getAttribute("alt"); String src_value = e.getAttribute("src");
 		 * System.out.println(alt_value + "----->" + src_value);
 		 */
+
+		// (2).FEs() - method we can handle with Generic Method
+		// ___With for each Loop _____
 		By img_list = By.tagName("img");
 		List<WebElement> count = getElements(img_list);
 		System.out.println(count.size()); // size()

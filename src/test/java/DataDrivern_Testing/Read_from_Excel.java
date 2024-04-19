@@ -9,7 +9,7 @@ package DataDrivern_Testing;
  */
 
 /*
- * Workbook is a class in Jexcel which will take file as an argument and
+ * Workbook is a class in Excel which will take file as an argument and
  * getWorkbook is a predefined method which will read the workbook and will
  * return the workbook object
  * 

@@ -3,7 +3,7 @@ package DropDowns_10;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -38,8 +38,8 @@ public class DropDownHandleWithSelectTag_1 {
 		// Adding 2 more countries
 		// so that index changed so not preferred for dynamic dropdowns
 
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		WebDriverManager.firefoxdriver().setup();
+		driver = new FirefoxDriver();
 		driver.get("https://www.orangehrm.com/orangehrm-30-day-trial/");
 		// first I want to create webElement of Dropdown ....
 		// WebElement country = driver.findElement(By.id("Form_getForm_Country"));

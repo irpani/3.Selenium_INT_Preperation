@@ -30,11 +30,24 @@ public class Images_Util {
 		System.out.println(getElmenets_Count(img_list));
 
 		List<String> attrList = getAttributesList(img_list, "src"); // This gives a List Of Strings
-		// printElementValues(attrList); // Created a Generic method for this also ...
-		// printElementValues(getAttributesList(img_list, "alt"));
-		// printElementValues(getAttributesList(link_list, "href"));
+		printElementValues(attrList); // Created a Generic method for this also ...
+		printElementValues(getAttributesList(img_list, "alt"));
+		printElementValues(getAttributesList(link_list, "href"));
 	}
 
+	// (1).List Of webElements
+	public static List<WebElement> getElements(By Locator) {
+
+		return driver.findElements(Locator);
+	}
+
+	// (2).Size Of Above List
+	public static int getElmenets_Count(By Locator) {
+
+		return getElements(Locator).size();
+	}
+
+	// (3).This is the Gm Logic for html tag Corresponding Attribute
 	public static List<String> getAttributesList(By Locator, String attributeName) {
 
 		List<WebElement> eleList = driver.findElements(Locator);
@@ -48,23 +61,14 @@ public class Images_Util {
 		return attrList;
 	}
 
-	// from Above method I get list of specific Attributes in the form of Strings
+	// (4). from Above method I get list of specific Attributes in the form of
+	// Strings
 	// I will print all the values
 	public static void printElementValues(List<String> eleList) {
 		for (String e : eleList) {
 			System.out.println(e);
 		}
 
-	}
-
-	public static int getElmenets_Count(By Locator) {
-
-		return getElements(Locator).size();
-	}
-
-	public static List<WebElement> getElements(By Locator) {
-
-		return driver.findElements(Locator);
 	}
 
 }

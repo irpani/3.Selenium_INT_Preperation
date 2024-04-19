@@ -5,7 +5,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxProfile;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Scroll_concept {
 
@@ -16,19 +17,21 @@ public class Scroll_concept {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		FirefoxProfile firefoxProfile = new FirefoxProfile();
-		firefoxProfile.setPreference("reader.parse-on-load.enabled", false);
-		System.setProperty("webdriver.gecko.driver", "D://Selenium//softwares//geckodriver.exe");
-		WebDriver dr = new FirefoxDriver();
+		// FirefoxProfile firefoxProfile = new FirefoxProfile();
+		// firefoxProfile.setPreference("reader.parse-on-load.enabled", false);
+		WebDriverManager.firefoxdriver().setup();
+		// System.setProperty("webdriver.gecko.driver",
+		// "D://Selenium//softwares//geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
 
-		JavascriptExecutor je = (JavascriptExecutor) dr;
+		JavascriptExecutor je = (JavascriptExecutor) driver;
 
-		dr.get("http://manos.malihu.gr/repository/custom-scrollbar/demo/examples/complete_examples.html");
-		Thread.sleep(5000);
+		driver.get("http://manos.malihu.gr/repository/custom-scrollbar/demo/examples/complete_examples.html");
+		Thread.sleep(2000);
 		je.executeScript("scroll(0,700)");
-		Thread.sleep(5000);
-		WebElement el = dr.findElement(By.xpath(".//*[@id='mCSB_3_container']/p[4]"));
-		Thread.sleep(5000);
+		Thread.sleep(3000);
+		WebElement el = driver.findElement(By.xpath(".//*[@id='mCSB_3_container']/p[4]"));
+		Thread.sleep(3000);
 
 		je.executeScript("arguments[0].scrollIntoView(true);", el);
 		Thread.sleep(5000);
@@ -36,7 +39,7 @@ public class Scroll_concept {
 		System.out.println(el.getText());
 		Thread.sleep(5000);
 
-		dr.quit();
+		driver.quit();
 	}
 
 }

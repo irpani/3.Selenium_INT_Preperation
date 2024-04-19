@@ -58,12 +58,12 @@ public class Actions_All_Methods {
 		driver.findElement(By.xpath(".//*[@id='page-wrapper']/div[4]/div[2]/div[2]/a[7]")).click();
 		Thread.sleep(3000);
 
+		// click series
+		driver.findElement(By.xpath(".//*[@id='page-wrapper']/div[4]/div[1]/div[1]/div[7]/a/span")).click();
+
 		// scroll down
 		((JavascriptExecutor) driver).executeScript("scroll(0,400)");
 		System.out.println("Scrolling completed");
-
-		// click series
-		driver.findElement(By.xpath(".//*[@id='page-wrapper']/div[4]/div[1]/div[1]/div[7]/a/span")).click();
 
 		// implicit wait
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);

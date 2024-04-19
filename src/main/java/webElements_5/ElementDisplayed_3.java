@@ -30,19 +30,23 @@ public class ElementDisplayed_3 {
 		return driver.findElement(Locator);
 	}
 
-	public static boolean doIsDisplayed(By Locator) {
-		return getElement(Locator).isDisplayed();
-
-	}
-
-	public static boolean isEnabled(By Locator) {
-		return getElement(Locator).isEnabled();
-
-	}
-
+	// ___isSelected()___
 	public static boolean doIsSelected(By Locator) {
 
 		return getElement(Locator).isSelected();
 
 	}
+
+	// ____isEnabled()____
+	public static boolean isEnabled(By Locator) {
+		return getElement(Locator).isEnabled();
+
+	}
+
+	// ____is Disabled()____
+	public static boolean doIsDisplayed(By Locator) {
+		return getElement(Locator).isDisplayed();
+
+	}
+
 }

@@ -5,23 +5,24 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Assert_Ex_2 {
 
 	@Test(retryAnalyzer = Failed_test_cases.class)
 	public void verifySeleniumTitle() {
 
-		System.setProperty("webdriver.gecko.driver", "D://Selenium//softwares//geckodriver.exe");
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver = new FirefoxDriver();
 
-		WebDriver dr = new FirefoxDriver();
-
-		dr.get("http://www.learn-automation.com");
-
+		driver.get("http://www.learn-automation.com");
+		String actTitle = driver.getTitle();
 		/*
 		 * Here we are verifying that title contains QTP or not. This test will fail
 		 * because title does not contain QTP
 		 */
-
-		Assert.assertEquals(dr.getTitle(), "Selenium");
+		System.out.println(driver.getTitle());
+		Assert.assertEquals(actTitle, "Automation - Selenium WebDriver tutorial Step by Step");
 
 	}
 

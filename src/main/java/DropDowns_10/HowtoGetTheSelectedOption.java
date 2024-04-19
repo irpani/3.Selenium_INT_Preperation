@@ -1,6 +1,6 @@
 package DropDowns_10;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,17 +16,17 @@ public class HowtoGetTheSelectedOption {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.tutorialspoint.com/selenium/selenium_automation_practice.htm");
 
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		// identify element
-		WebElement t = driver.findElement(By.xpath("//*[@name='continents']"));
+		WebElement continent = driver.findElement(By.xpath("//*[@name='continents']"));
 		// Select class for dropdown
-		Select select = new Select(t);
+		Select select = new Select(continent);
 		// select an item with text visible
-		select.selectByVisibleText("Australia");
+		select.selectByValue("Australia");
 		// get selected option with getFirstSelectedOption() with its text
-		WebElement o = select.getFirstSelectedOption();
-		String selectedoption = o.getText();
+		WebElement option = select.getFirstSelectedOption();
+		String selectedoption = option.getText();
 		System.out.println("Selected element: " + selectedoption);
-		driver.close();
+		driver.quit();
 	}
 }

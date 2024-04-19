@@ -1,6 +1,6 @@
 package Actions_15;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -31,7 +31,7 @@ public class KeyBoard_2 {
 		driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");
 
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		WebElement firstname = driver.findElement(By.name("firstname"));
 		WebElement lastname = driver.findElement(By.name("lastname"));

@@ -5,7 +5,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -24,8 +24,8 @@ public class Context_Click_Concept_1 {
 	static WebDriver driver;
 
 	public static void main(String[] args) {
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		WebDriverManager.firefoxdriver().setup();
+		driver = new FirefoxDriver();
 		driver.get("https://swisnl.github.io/jQuery-contextMenu/demo.html");
 
 		WebElement rightClickMe = driver.findElement(By.xpath("//span[text()='right click me']"));

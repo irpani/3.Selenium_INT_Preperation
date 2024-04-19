@@ -2,7 +2,7 @@ package Frames_12;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -25,11 +25,12 @@ public class Frames_Handle_1 {
 
 	public static void main(String[] args) {
 
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver = new FirefoxDriver();
 		driver.get("http://londonfreelance.org/courses/frames/index.html");
 
-		// driver.switchTo().frame(2); Not prefered much ... trw there may be chance of
+		driver.switchTo().frame(2); // Not prefered much ... trw there may be chance
+		// of
 		// index change
 		// driver.switchTo().frame("main");
 		String header = driver.findElement(By.xpath("html/body/h2")).getText();

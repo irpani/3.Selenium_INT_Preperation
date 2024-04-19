@@ -24,8 +24,12 @@ public class SponsorList {
 
 			String str = e.getText();
 			String str1 = e.getAttribute("href");
+			if (!str.equals(null)) {
+				System.out.println(str);
+			}
 			System.out.println(str);
 			System.out.println(str1);
+
 		}
 
 	}

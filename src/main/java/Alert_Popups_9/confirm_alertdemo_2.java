@@ -3,13 +3,16 @@ package Alert_Popups_9;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class confirm_alertdemo_2 {
 	static WebDriver driver;
 
 	private static void browser() {
-		driver = new ChromeDriver();
+		WebDriverManager.firefoxdriver().setup();
+		driver = new FirefoxDriver();
 		driver.get("https://demo.automationtesting.in/Alerts.html");
 		driver.manage().window().maximize();
 		// WebElement findElement =

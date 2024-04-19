@@ -8,7 +8,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 //FYI First 4 packages like 
 /*WebDriver_Launch_1,
   WebDriver_casting_2,
-  QuitvscloseAnd_Bornigracia_3,
+  Quit vs close And_Bornigracia_3,
   Naviation_4 methods focus on driver relate methods*/
 // After that focus on Specific application launching url=>find webElements to  perform Actions...
 public class WebDriver_Basics_1 {

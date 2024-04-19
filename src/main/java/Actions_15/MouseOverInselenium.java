@@ -3,9 +3,11 @@ package Actions_15;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class MouseOverInselenium {
 
@@ -14,16 +16,8 @@ public class MouseOverInselenium {
 	@Test
 	public void enterText() {
 
-		// First step set the driver location
-		// For Window user
-		// System.setProperty("webdriver.chrome.driver",
-		// "/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver.exe");
-
-		System.setProperty("webdriver.chrome.driver",
-				"/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver");
-
-		// Create Object of driver.
-		driver = new ChromeDriver();
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver = new FirefoxDriver();
 
 		// Navigate to site
 		driver.get("https://www.actitime.com/download");

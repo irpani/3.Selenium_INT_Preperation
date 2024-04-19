@@ -4,14 +4,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class KeyBoardActions {
 	public static void main(String[] args) {
-		// Set the path of the ChromeDriver executable
-		System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
-		// Launch Chrome browser
-		WebDriver driver = new ChromeDriver();
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver = new FirefoxDriver();
 		// Find an input field element
 		WebElement inputField = driver.findElement(By.id("input-field-id"));
 		// Type text with keyboard actions

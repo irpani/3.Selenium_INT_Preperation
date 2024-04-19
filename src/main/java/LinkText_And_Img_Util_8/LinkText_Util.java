@@ -32,6 +32,19 @@ public class LinkText_Util {
 		getElementTextList(links);
 	}
 
+	// (1).List Of webElements
+	public static List<WebElement> getElements(By locator) {
+
+		return driver.findElements(By.tagName("a"));
+	}
+
+	// (2).Count Of Above List
+	public static int getElementsCount(By Locator) {
+
+		return getElements(Locator).size();
+	}
+
+	// Generic Method to Get All links Element Text
 	public static List<String> getElementTextList(By Locator) {
 		List<WebElement> eleList = getElements(Locator);
 		List<String> eleTextList = new ArrayList<String>();
@@ -42,16 +55,6 @@ public class LinkText_Util {
 			}
 		}
 		return eleTextList;
-	}
-
-	public static int getElementsCount(By Locator) {
-
-		return getElements(Locator).size();
-	}
-
-	public static List<WebElement> getElements(By locator) {
-
-		return driver.findElements(By.tagName("a"));
 	}
 
 }

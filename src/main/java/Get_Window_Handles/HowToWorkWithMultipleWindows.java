@@ -5,8 +5,10 @@ import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class HowToWorkWithMultipleWindows {
 
@@ -20,10 +22,8 @@ public class HowToWorkWithMultipleWindows {
 		// System.setProperty("webdriver.chrome.driver",
 		// "/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver.exe");
 
-		System.setProperty("webdriver.chrome.driver",
-				"/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver");
-
-		driver = new ChromeDriver();
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver = new FirefoxDriver();
 
 		driver.get("http://automationpractice.com/index.php");
 

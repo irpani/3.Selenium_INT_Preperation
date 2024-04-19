@@ -1,5 +1,6 @@
 package Get_Window_Handles;
 
+import java.time.Duration;
 import java.util.Set;
 
 import org.openqa.selenium.By;
@@ -12,7 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Getwindowhandles {
 
 	@Test
-	public void getwindowhandle() {
+	public void getwindowhandle() throws InterruptedException {
 
 		WebDriverManager.firefoxdriver().setup();
 		WebDriver driver = new FirefoxDriver();
@@ -20,7 +21,9 @@ public class Getwindowhandles {
 		String pwd = driver.getWindowHandle();
 		System.out.println(pwd);
 
-		driver.manage().deleteAllCookies();
+		// driver.manage().deleteAllCookies();
+		driver.manage().getCookies().clear();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.findElement(By.xpath("//img[@src='/_resources/themes/orangehrm/dist/images/social-icon/facebook.png']"))
 				.click();
 		Set<String> windows = driver.getWindowHandles();

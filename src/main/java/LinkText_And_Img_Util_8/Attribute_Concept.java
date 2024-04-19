@@ -3,7 +3,7 @@ package LinkText_And_Img_Util_8;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -12,9 +12,9 @@ public class Attribute_Concept {
 
 	public static void main(String[] args) {
 
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.firefoxdriver().setup();
 
-		driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 		driver.get("https://www.amazon.com/");
 		By amazonDevicesLink = By.linkText("Amazon Devices");
 
@@ -24,6 +24,11 @@ public class Attribute_Concept {
 		}
 	}
 
+	public static WebElement getElement(By Locator) {
+
+		return driver.findElement(Locator);
+	}
+
 	// Generic Methods for getAttribute():
 	public static String getAttributeValue(By Locator, String attrName) {
 
@@ -31,8 +36,4 @@ public class Attribute_Concept {
 
 	}
 
-	public static WebElement getElement(By Locator) {
-
-		return driver.findElement(Locator);
-	}
 }

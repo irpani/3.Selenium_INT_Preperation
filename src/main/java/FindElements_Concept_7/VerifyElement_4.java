@@ -2,7 +2,7 @@ package FindElements_Concept_7;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -11,11 +11,11 @@ public class VerifyElement_4 {
 
 	public static void main(String[] args) {
 
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.firefoxdriver().setup();
 		// By ContactSaleLink = By.linkText("Contact Sales");
 		// Trw if elemenet got chnaged
 		By ContactSaleLink = By.linkText("Contact Sales11");
-		driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 		driver.get("https://www.orangehrm.com/orangehrm-30-day-trial/");
 
 		// driver.findElement(By.linkText("Contact Sales")).click();
