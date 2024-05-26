@@ -29,6 +29,6 @@ public class KeyBoard_1 {
 		Actions action = new Actions(driver);
 		Action action1 = action.keyDown(text, Keys.SHIFT).sendKeys("Bhanu Pratap").keyUp(text, Keys.SHIFT).build();
 		action1.perform();
-
+		driver.quit();
 	}
 }
