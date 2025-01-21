@@ -2,6 +2,7 @@ package webDriver_Launch_1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -34,26 +35,27 @@ public class WebDriver_Basics_1 {
 		// here in default Constructor chrome driver launch logic return
 
 		driver.get("https://www.google.com/"); // http(or)https is mandatory ,www --optional
-		String title = driver.getTitle();
+		String Acttitle = driver.getTitle();
 		String actURL = driver.getCurrentUrl();
-		System.out.println("Current title of the Page is:" + title);
+		System.out.println("Current title of the Page is:" + Acttitle);
 
 		// ______Validation/Checkpoint (or) Assertion ______mandatory As Automation
 		// Engineer
 
-		if (title.equals("Google")) {
-			System.out.println("Title matched pass:" + title);
+		if (Acttitle.equals("Google")) {
+			System.out.println("Title matched pass:" + Acttitle);
+			 Assert.assertEquals(Acttitle, EXPECTED_TITLE); 
 		} else {
 			System.out.println("failed");
 		}
 
 		// ____Assertion_____
 
-		/*
-		 * Assert.assertEquals(title, EXPECTED_TITLE); driver.quit();
-		 */
-		driver.close();
-		// Practice multiple sites Validations
+		
+		 //Assert.assertEquals(Acttitle, EXPECTED_TITLE); 
+		 driver.quit();
+		
+		
 
 	}
 
